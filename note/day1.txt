@@ -1,0 +1,12 @@
+#配置环境注意修改对应路径，#include 无法找到时禁用拓展，再启用尝试。
+#参考https://www.cnblogs.com/baihualiaoluan/p/10661669.html
+#参考https://gitbookcpp.llfc.club/sections/cpp/section1/cpp02.html
+
+#使用git配置token https://blog.csdn.net/weixin_41010198/article/details/119698015?utm_source=app&app_version=4.21.0&code=app_1562916241&uLinkId=usr1mkqgl919blen
+
+#  system("pause");//使用任意键继续
+
+//引用和指针
+//j=*i;//说明j是普通变量，i是指针变量，意思是把i指向的变量中的值赋值给j
+//j=&i//说明j是指针变量，i是普通变量，取i的地址然后赋值给j，这样j就指向i了
+//j=*&i//你得先确定*和&的优先级和结合性，*&i等价于*（&i）,也就是先取i的地址，然后求这个地址所指向的内容，其实就是i，所以这里，j和i都是普通变量，此等式的含义就是把i的值赋值给j
